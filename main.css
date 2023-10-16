@@ -1,0 +1,90 @@
+.deck {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: black;
+}
+
+.cards {
+  transition: 0.3s;
+  width: 40%;
+  max-width: 350px;
+  border: 1px lightblue;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
+  margin: 20px 20px;
+  font-family:monospace;
+  background-image: url("silver.png") ;
+  justify-content:center;
+  border-radius: 5px;
+  backdrop-filter: blur(2px); background-color: rgba(255, 255, 255, 0.6); border-radius: 26px; box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -5px -5px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+}
+
+
+#emerald:hover {
+  box-shadow: 0 0 40px 20px rgba(41, 190, 28, 0.878);
+}
+
+#amethyst:hover {
+  box-shadow: 0 0 40px 20px rgba(177, 90, 231, 0.911);
+}
+
+#ruby:hover {
+  box-shadow: 0 0 40px 20px rgba(237, 10, 10, 0.867);
+}
+
+#tourmaline:hover {
+  box-shadow: 0 0 40px 20px rgba(232, 19, 157, 0.857);
+}
+
+#sapphire:hover {
+  box-shadow: 0 0 40px 20px rgba(8, 83, 232, 0.867);
+}
+
+#yellow-diamond:hover {
+  box-shadow: 0 0 40px 20px rgba(221, 247, 47, 0.907);
+}
+
+
+
+.info {
+  padding: 2px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img {
+display: flex;
+justify-content: center;
+
+}
+
+#name {
+  padding-top: 5px;
+  padding-bottom: 1px;
+  text-align: center;
+  border: 1px solid lightblue;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+
+
+#availability {
+  background-color: rgb(72, 71, 71);
+  text-align: center;
+  color:beige;
+}
+
+#specifications, #pricing {
+  border: 1px lightblue;
+  height-max: 25%;
+}
+
+footer {
+  font-size: x-small;
+  text-align: right;
+}
